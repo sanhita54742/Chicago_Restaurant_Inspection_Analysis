@@ -1,0 +1,899 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="54" width="554" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Business Licenses</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Business Licenses</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Business_Licenses_Chicago.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ID" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LICENSE ID" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="ACCOUNT NUMBER" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="SITE NUMBER" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LEGAL NAME" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="DOING BUSINESS AS NAME" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="ADDRESS" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="CITY" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="STATE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="ZIP CODE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="WARD" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="PRECINCT" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="WARD PRECINCT" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="POLICE DISTRICT" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LICENSE CODE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LICENSE DESCRIPTION" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="BUSINESS ACTIVITY ID" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="BUSINESS ACTIVITY" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LICENSE NUMBER" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="APPLICATION TYPE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="APPLICATION CREATED DATE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="APPLICATION REQUIREMENTS COMPLETE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="PAYMENT DATE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="CONDITIONAL APPROVAL" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LICENSE TERM START DATE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LICENSE TERM EXPIRATION DATE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LICENSE APPROVED FOR ISSUANCE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="DATE ISSUED" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LICENSE STATUS" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LICENSE STATUS CHANGE DATE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="SSA" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LATITUDE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LONGITUDE" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="LOCATION" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="190" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="ID" selected="True" />
+                <Field field="LICENSE ID" selected="True" />
+                <Field field="ACCOUNT NUMBER" selected="True" />
+                <Field field="SITE NUMBER" selected="True" />
+                <Field field="LEGAL NAME" selected="True" />
+                <Field field="DOING BUSINESS AS NAME" selected="True" />
+                <Field field="ADDRESS" selected="True" />
+                <Field field="CITY" selected="True" />
+                <Field field="STATE" selected="True" />
+                <Field field="ZIP CODE" selected="True" />
+                <Field field="WARD" selected="True" />
+                <Field field="PRECINCT" selected="True" />
+                <Field field="WARD PRECINCT" selected="True" />
+                <Field field="POLICE DISTRICT" selected="True" />
+                <Field field="LICENSE CODE" selected="True" />
+                <Field field="LICENSE DESCRIPTION" selected="True" />
+                <Field field="BUSINESS ACTIVITY ID" selected="True" />
+                <Field field="BUSINESS ACTIVITY" selected="True" />
+                <Field field="LICENSE NUMBER" selected="True" />
+                <Field field="APPLICATION TYPE" selected="True" />
+                <Field field="APPLICATION CREATED DATE" selected="True" />
+                <Field field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+                <Field field="PAYMENT DATE" selected="True" />
+                <Field field="CONDITIONAL APPROVAL" selected="True" />
+                <Field field="LICENSE TERM START DATE" selected="True" />
+                <Field field="LICENSE TERM EXPIRATION DATE" selected="True" />
+                <Field field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+                <Field field="DATE ISSUED" selected="True" />
+                <Field field="LICENSE STATUS" selected="True" />
+                <Field field="LICENSE STATUS CHANGE DATE" selected="True" />
+                <Field field="SSA" selected="True" />
+                <Field field="LATITUDE" selected="True" />
+                <Field field="LONGITUDE" selected="True" />
+                <Field field="LOCATION" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ID" size="16" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="LICENSE ID" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Int32" />
+                <Field name="ACCOUNT NUMBER" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Int32" />
+                <Field name="SITE NUMBER" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Int16" />
+                <Field name="LEGAL NAME" size="117" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="DOING BUSINESS AS NAME" size="128" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="ADDRESS" size="80" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="CITY" size="30" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="STATE" size="2" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="ZIP CODE" size="5" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="WARD" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Byte" />
+                <Field name="PRECINCT" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Int16" />
+                <Field name="WARD PRECINCT" size="6" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="POLICE DISTRICT" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Byte" />
+                <Field name="LICENSE CODE" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Int16" />
+                <Field name="LICENSE DESCRIPTION" size="60" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="BUSINESS ACTIVITY ID" size="81" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="BUSINESS ACTIVITY" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="LICENSE NUMBER" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Int32" />
+                <Field name="APPLICATION TYPE" size="6" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="APPLICATION CREATED DATE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="PAYMENT DATE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="CONDITIONAL APPROVAL" size="1" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="LICENSE TERM START DATE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="LICENSE TERM EXPIRATION DATE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="DATE ISSUED" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="LICENSE STATUS" size="3" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="LICENSE STATUS CHANGE DATE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="SSA" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Byte" />
+                <Field name="LATITUDE" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Double" />
+                <Field name="LONGITUDE" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Double" />
+                <Field name="LOCATION" size="40" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="298" y="105" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="405" y="105" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\danak\AppData\Local\Temp\Engine_39864_f76edad709772f4a8b1bd2ad194bf8f6_\Engine_39864_7decd489b7c32742a6bb75ac34ba4653~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="272" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="476" y="223" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File />
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <TransactionMessages>False</TransactionMessages>
+                <Table>stg_DI_Business_License</Table>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <OutputOption>Overwrite</OutputOption>
+                <Connection DcmType="ConnectionId">f5626a5a-63fb-40b0-96ba-7c7655e8847a</Connection>
+                <Projection />
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>dcm:MsSQL_Chicago — damg
+Table=stg_DI_Business_License</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="176" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="ID" selected="True" />
+                <Field field="LICENSE ID" selected="True" />
+                <Field field="ACCOUNT NUMBER" selected="True" />
+                <Field field="SITE NUMBER" selected="True" />
+                <Field field="LEGAL NAME" selected="True" />
+                <Field field="DOING BUSINESS AS NAME" selected="True" />
+                <Field field="ADDRESS" selected="True" />
+                <Field field="CITY" selected="True" />
+                <Field field="STATE" selected="True" />
+                <Field field="ZIP CODE" selected="True" />
+                <Field field="WARD" selected="True" />
+                <Field field="PRECINCT" selected="True" />
+                <Field field="WARD PRECINCT" selected="True" />
+                <Field field="POLICE DISTRICT" selected="True" />
+                <Field field="LICENSE CODE" selected="True" />
+                <Field field="LICENSE DESCRIPTION" selected="True" />
+                <Field field="BUSINESS ACTIVITY ID" selected="True" />
+                <Field field="BUSINESS ACTIVITY" selected="True" />
+                <Field field="LICENSE NUMBER" selected="True" />
+                <Field field="APPLICATION TYPE" selected="True" />
+                <Field field="APPLICATION CREATED DATE" selected="True" />
+                <Field field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+                <Field field="PAYMENT DATE" selected="True" />
+                <Field field="CONDITIONAL APPROVAL" selected="True" />
+                <Field field="LICENSE TERM START DATE" selected="True" />
+                <Field field="LICENSE TERM EXPIRATION DATE" selected="True" />
+                <Field field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+                <Field field="DATE ISSUED" selected="True" />
+                <Field field="LICENSE STATUS" selected="True" />
+                <Field field="LICENSE STATUS CHANGE DATE" selected="True" />
+                <Field field="SSA" selected="True" />
+                <Field field="LATITUDE" selected="True" />
+                <Field field="LONGITUDE" selected="True" />
+                <Field field="LOCATION" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ID" size="16" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="LICENSE ID" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Int32" />
+                <Field name="ACCOUNT NUMBER" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Int32" />
+                <Field name="SITE NUMBER" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Int16" />
+                <Field name="LEGAL NAME" size="117" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="DOING BUSINESS AS NAME" size="128" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="ADDRESS" size="80" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_WString" />
+                <Field name="CITY" size="30" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="STATE" size="2" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="ZIP CODE" size="5" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="WARD" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Byte" />
+                <Field name="PRECINCT" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Int16" />
+                <Field name="WARD PRECINCT" size="6" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="POLICE DISTRICT" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Byte" />
+                <Field name="LICENSE CODE" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Int16" />
+                <Field name="LICENSE DESCRIPTION" size="60" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="BUSINESS ACTIVITY ID" size="81" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="BUSINESS ACTIVITY" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="LICENSE NUMBER" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Int32" />
+                <Field name="APPLICATION TYPE" size="6" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="APPLICATION CREATED DATE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="PAYMENT DATE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="CONDITIONAL APPROVAL" size="1" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="LICENSE TERM START DATE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="LICENSE TERM EXPIRATION DATE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="DATE ISSUED" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="LICENSE STATUS" size="3" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+                <Field name="LICENSE STATUS CHANGE DATE" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="V_String" />
+                <Field name="SSA" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Byte" />
+                <Field name="LATITUDE" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Double" />
+                <Field name="LONGITUDE" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="Double" />
+                <Field name="LOCATION" size="40" source="File: C:\Users\danak\OneDrive\Desktop\Data\Business_Licenses_Chicago.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="476" y="151" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\danak\AppData\Local\Temp\Engine_39864_f76edad709772f4a8b1bd2ad194bf8f6_\Engine_39864_e375b2427d544f4f8d9f5e03f02f3cc1~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="368" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="256" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="256" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkflowDirectory = [Engine.WorkflowDirectory]
+...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="356" width="613" height="313" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Food Inspections</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Food Inspections</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="440" y="475" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>INSPECTION DATE</InputFieldName>
+              <Language>English</Language>
+              <Format>MM/dd/yyyy</Format>
+              <OutputFieldName>INSPECTION DATE OUT</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert INSPECTION DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="344" y="475" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="256" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="256" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkflowDirectory = [Engine.WorkflowDirectory]
+...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="164" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CAMIS" selected="True" />
+                <Field field="DBA" selected="True" />
+                <Field field="BORO" selected="True" />
+                <Field field="BUILDING" selected="True" />
+                <Field field="STREET" selected="True" />
+                <Field field="ZIPCODE" selected="True" />
+                <Field field="PHONE" selected="True" />
+                <Field field="CUISINE DESCRIPTION" selected="True" />
+                <Field field="INSPECTION DATE" selected="True" />
+                <Field field="ACTION" selected="True" />
+                <Field field="VIOLATION CODE" selected="True" />
+                <Field field="VIOLATION DESCRIPTION" selected="True" />
+                <Field field="CRITICAL FLAG" selected="True" />
+                <Field field="SCORE" selected="True" />
+                <Field field="GRADE" selected="True" />
+                <Field field="GRADE DATE" selected="True" />
+                <Field field="RECORD DATE" selected="True" />
+                <Field field="INSPECTION TYPE" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="True" />
+                <Field field="Community Board" selected="True" />
+                <Field field="Council District" selected="True" />
+                <Field field="Census Tract" selected="True" />
+                <Field field="BIN" selected="True" />
+                <Field field="BBL" selected="True" />
+                <Field field="NTA" selected="True" />
+                <Field field="Location Point1" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Inspection ID" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="Int32" />
+                <Field name="DBA Name" size="79" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="AKA Name" size="79" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="License #" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="Int32" />
+                <Field name="Facility Type" size="47" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="Risk" size="15" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="String" />
+                <Field name="Address" size="51" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="City" size="20" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="State" size="2" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="String" />
+                <Field name="Zip" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="Int32" />
+                <Field name="Inspection Date" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="String" />
+                <Field name="Inspection Type" size="41" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="Results" size="20" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="Violations" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="Latitude" size="18" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="String" />
+                <Field name="Longitude" size="18" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="String" />
+                <Field name="Location" size="40" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="536" y="475" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\danak\AppData\Local\Temp\Engine_39864_f76edad709772f4a8b1bd2ad194bf8f6_\Engine_39864_085049eed8d5ea468871bc5c44f630e9~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="536" y="523" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File />
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <TransactionMessages>False</TransactionMessages>
+                <Table>stg_DI_Food_Inspections</Table>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <OutputOption>Overwrite</OutputOption>
+                <Connection DcmType="ConnectionId">f5626a5a-63fb-40b0-96ba-7c7655e8847a</Connection>
+                <Projection />
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>dcm:MsSQL_Chicago — damg
+Table=stg_DI_Food_Inspections</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="248" y="475" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="406" y="405" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\danak\AppData\Local\Temp\Engine_39864_f76edad709772f4a8b1bd2ad194bf8f6_\Engine_39864_2c36070bf3061e48968aa03b44bbe941~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="310" y="405" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="214" y="405" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CAMIS" selected="True" />
+                <Field field="DBA" selected="True" />
+                <Field field="BORO" selected="True" />
+                <Field field="BUILDING" selected="True" />
+                <Field field="STREET" selected="True" />
+                <Field field="ZIPCODE" selected="True" />
+                <Field field="PHONE" selected="True" />
+                <Field field="CUISINE DESCRIPTION" selected="True" />
+                <Field field="INSPECTION DATE" selected="True" />
+                <Field field="ACTION" selected="True" />
+                <Field field="VIOLATION CODE" selected="True" />
+                <Field field="VIOLATION DESCRIPTION" selected="True" />
+                <Field field="CRITICAL FLAG" selected="True" />
+                <Field field="SCORE" selected="True" />
+                <Field field="GRADE" selected="True" />
+                <Field field="GRADE DATE" selected="True" />
+                <Field field="RECORD DATE" selected="True" />
+                <Field field="INSPECTION TYPE" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="True" />
+                <Field field="Community Board" selected="True" />
+                <Field field="Council District" selected="True" />
+                <Field field="Census Tract" selected="True" />
+                <Field field="BIN" selected="True" />
+                <Field field="BBL" selected="True" />
+                <Field field="NTA" selected="True" />
+                <Field field="Location Point1" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Inspection ID" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="Int32" />
+                <Field name="DBA Name" size="79" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="AKA Name" size="79" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="License #" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="Int32" />
+                <Field name="Facility Type" size="47" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="Risk" size="15" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="String" />
+                <Field name="Address" size="51" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="City" size="20" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="State" size="2" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="String" />
+                <Field name="Zip" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="Int32" />
+                <Field name="Inspection Date" size="10" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="String" />
+                <Field name="Inspection Type" size="41" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="Results" size="20" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="Violations" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_String" />
+                <Field name="Latitude" size="18" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="String" />
+                <Field name="Longitude" size="18" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="String" />
+                <Field name="Location" size="40" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Food_Inspections_Chicago.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Inspection ID" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="DBA Name" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="AKA Name" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="License #" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="Facility Type" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="Risk" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="Address" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="City" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="State" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="Zip" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="Inspection Date" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="Inspection Type" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="Results" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="Violations" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="Latitude" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="Longitude" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+                <Field name="Location" size="254" source="File: C:\Users\danak\OneDrive\Desktop\Data\Food_Inspections_Chicago.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago_Staging</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="aa349264-b220-468c-bcca-b7d48d15c92a" />
+      <Telemetry>
+        <PreviousWorkflowId value="f655b45b-0158-4f25-b554-32c687465b60" />
+        <OriginWorkflowId value="f655b45b-0158-4f25-b554-32c687465b60" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
